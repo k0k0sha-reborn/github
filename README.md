@@ -1,7 +1,7 @@
 # GitHub
 K0K0SH@'s GitHub scripts and crawlers
    
-##CRAWLING GITHUB WITH GH (OFFICIAL METHOD)  
+## CRAWLING GITHUB WITH GH (OFFICIAL METHOD)  
   Sometimes, you may want to clone all repos from a specific GitHub account. If you're the owner of the repo, GitHub gives you an official way to access all your repos via command-line API. However, GitHub doesn't seem to want you to crawl other people's repos automatically. Therefore, the official support for repo-crawling requires the user to download gh and authenticate themselves via token. Tokens can be created at https://github.com/settings/tokens
   The official (GH) method requires the user to install GH. On Windows, you can use choco install GH. On Linux, you can install it with your package manager. Then, you need to set up your account with the following command.
 (configure your authentication settings as the prompts require):
@@ -30,11 +30,11 @@ Or you could get the repo names as raw JSON
 gh repo list --limit 1000 --json name
 ```
 
-##TODO:   
+## TODO:   
 -create a GH repo list wrapper in Python and Lua  
 -Connect GH repo list wrapper into git clone  
 
-##NOTES:
+## NOTES:
 ```Lua
 cmdstr = ""
 base_command = "gh repo list",
