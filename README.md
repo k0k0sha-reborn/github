@@ -30,7 +30,7 @@ Or you could get the repo names as raw JSON
 gh repo list --limit 1000 --json name
 ```
 
-TODO: 
+TODO:   
 -create a GH repo list wrapper in Python and Lua  
 -Connect GH repo list wrapper into git clone  
 
