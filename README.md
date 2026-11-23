@@ -31,8 +31,8 @@ gh repo list --limit 1000 --json name
 ```
 
 TODO: 
--create a GH repo list wrapper in Python and Lua
--Connect GH repo list wrapper into git clone
+-create a GH repo list wrapper in Python and Lua  
+-Connect GH repo list wrapper into git clone  
 
 NOTES:
 ```Lua
